@@ -1,4 +1,5 @@
 #! /bin/bash
 read -p " enter number" num
 read -p " enter second number" num1
-echo $(( $num1 + $num ))
+read -p " enter third number" num3
+echo "result1:"$(( $num + (($num1 * $num3)) ))
